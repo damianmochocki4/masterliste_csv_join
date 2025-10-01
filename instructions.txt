@@ -1,0 +1,8 @@
+1. CSV file with "," delimiter and the Masterliste Excel File are taken as an input in the GUI window.
+2. The data in the Masterliste Excel File has to be in the first worksheet to the left.
+3. The join function is proceeding when either "GF-AP-ID" or "Home-ID GF-AP" column exists and has a match in both files. Formulas are not allowed.
+4. There is a column "GF-AP-ID_Matched" created in both CSV and Masterliste files which contains a boolean value ("TRUE" or "FALSE") indicating whether a match occured.
+5. All the columns from the CSV file are appended to the Masterliste file. If a column name already exists, there is "_csv" added to the column name.
+6. After selecting the file paths and clicking "Run", the scipt is launched and when it concludes, a pop-up window is shown with its result message.
+7. Outputs are saved in the same directory as inputs, with their existing names and "updated_{current_date}" appended.
+8. If the output file of that name already exists, it adds "_(1)" to the name, then "_(2)", "_(3)" and so on.
