@@ -9,5 +9,5 @@
 9. After selecting the file paths and clicking "Run", the scipt is launched and when it concludes, a pop-up window is shown with its result message.
 10. Outputs are saved in the same directory as inputs, with their existing names and "updated_{current_date}" appended.
 11. If the Masterliste file of that name already exists, it adds "_(1)" to the name, then "_(2)", "_(3)" and so on.
-
 12. The updated CSV File is first created with "_updated" added to the name and then overwritten if run again to allow collecting data from many Masterliste files.
+
